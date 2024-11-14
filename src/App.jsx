@@ -9,6 +9,7 @@ import Favorites from "./pages/Favorites.jsx";
 import Profile from "./pages/Profile.jsx";
 import PetDetail from "./pages/PetDetail.jsx";
 import FavoritePet from "./pages/FavoritePet.jsx";
+import ManagePet from "./pages/ManagePet.jsx";
 
 function App() {
  return (
@@ -24,6 +25,7 @@ function App() {
       <Route path="services" element={<Services />} />
       <Route path="favorites" element={<Favorites />} />
       <Route path="profile" element={<Profile />} />
+      <Route path="profile/manage-pet" element={<ManagePet />} />
      </Route>
     </Routes>
    </Router>

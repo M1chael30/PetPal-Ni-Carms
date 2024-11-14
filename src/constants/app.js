@@ -40,7 +40,7 @@ export const teams = [
   name: "Czianel",
   label: "czianel",
   alt: "Czianel",
-  src: "",
+  src: "./ian.jpg",
   pos: "Lead Developer",
   fbLink: "https://facebook.com",
   gitLink: "https://github.com",
@@ -51,7 +51,7 @@ export const teams = [
   name: "Mel",
   label: "mel",
   alt: "Mel",
-  src: "",
+  src: "./mel.png",
   pos: "Legal Adviser",
   fbLink: "https://facebook.com",
   gitLink: "https://github.com",
@@ -239,3 +239,40 @@ export const favList = [
   price: "₱1,800",
  },
 ];
+
+
+
+export const dogList = [
+  {
+    id:1,
+    name: "Lemon",
+    breed: "Labrador",
+    age: 8,
+    description: "Clingy",
+    gender: "Male"
+  },
+  {
+    id:2,
+    name: "Mango",
+    breed: "Golden Retriever",
+    age: 2,
+    description: "Moody",
+    gender: "Female"
+  },
+  {
+    id:3,
+    name: "Harada",
+    breed: "Great Mane",
+    age: 15,
+    description: "Black fur coat",
+    gender: "Male"
+  },
+  {
+    id:4,
+    name: "Sakura",
+    breed: "Pomeranian",
+    age: 5,
+    description: "Small and cute",
+    gender: "Female"
+  },
+]

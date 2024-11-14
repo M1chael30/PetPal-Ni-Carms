@@ -4,26 +4,12 @@ const StatsSection = () => {
  return (
   <div className="grid grid-cols-2 gap-6 border-b border-t border-gray-200 py-4 dark:border-gray-700 md:py-8 lg:grid-cols-4 xl:gap-16">
    <div>
-    <svg
-     className="mb-2 h-8 w-8 text-gray-400 dark:text-gray-500"
-     aria-hidden="true"
-     xmlns="http://www.w3.org/2000/svg"
-     width="24"
-     height="24"
-     fill="none"
-     viewBox="0 0 24 24"
-    >
-     <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-      d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"
-     />
-    </svg>
-    <h3 className="mb-2 text-gray-500 dark:text-gray-400">Orders made</h3>
+    <i class="fa-solid text-gray-500 text-3xl fa-paw"></i>
+    <h3 className="mb-2 text-gray-500 dark:text-gray-400">
+     Services requested
+    </h3>
     <span className="flex items-center text-2xl font-bold text-gray-900 dark:text-white">
-     24
+     78
      <span className="ms-2 inline-flex items-center rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300">
       <svg
        className="-ms-1 me-1 h-4 w-4"
@@ -40,7 +26,7 @@ const StatsSection = () => {
         d="M12 6v13m0-13 4 4m-4-4-4 4"
        ></path>
       </svg>
-      10.3%
+      40%
      </span>
     </span>
     <p className="mt-2 flex items-center text-sm text-gray-500 dark:text-gray-400 sm:text-base">
@@ -61,7 +47,7 @@ const StatsSection = () => {
        d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
       />
      </svg>
-     vs 20 last 3 months
+     vs 50 last 3 months
     </p>
    </div>
    <div>
@@ -142,11 +128,11 @@ const StatsSection = () => {
      />
     </svg>
     <h3 className="mb-2 text-gray-500 dark:text-gray-400">
-     Favorite products added
+     Average services requested 
     </h3>
     <span className="flex items-center text-2xl font-bold text-gray-900 dark:text-white">
-     8
-     <span className="ms-2 inline-flex items-center rounded bg-red-100 px-2.5 py-0.5 text-xs font-medium text-red-800 dark:bg-red-900 dark:text-red-300">
+     23
+     <span className="ms-2 inline-flex items-center rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-red-900 dark:text-red-300">
       <svg
        className="-ms-1 me-1 h-4 w-4"
        aria-hidden="true"
@@ -162,7 +148,7 @@ const StatsSection = () => {
         d="M12 6v13m0-13 4 4m-4-4-4 4"
        ></path>
       </svg>
-      12%
+      60%
      </span>
     </span>
     <p className="mt-2 flex items-center text-sm text-gray-500 dark:text-gray-400 sm:text-base">
@@ -183,7 +169,7 @@ const StatsSection = () => {
        d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
       />
      </svg>
-     vs 10 last 3 months
+     vs 15 last 3 months
     </p>
    </div>
    <div>
@@ -204,7 +190,7 @@ const StatsSection = () => {
       d="M3 9h13a5 5 0 0 1 0 10H7M3 9l4-4M3 9l4 4"
      />
     </svg>
-    <h3 className="mb-2 text-gray-500 dark:text-gray-400">Product returns</h3>
+    <h3 className="mb-2 text-gray-500 dark:text-gray-400">Dogs Adopted</h3>
     <span className="flex items-center text-2xl font-bold text-gray-900 dark:text-white">
      2
      <span className="ms-2 inline-flex items-center rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300">
@@ -223,7 +209,7 @@ const StatsSection = () => {
         d="M12 6v13m0-13 4 4m-4-4-4 4"
        ></path>
       </svg>
-      50%
+      100%
      </span>
     </span>
     <p className="mt-2 flex items-center text-sm text-gray-500 dark:text-gray-400 sm:text-base">

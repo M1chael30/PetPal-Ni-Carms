@@ -1,6 +1,4 @@
 import React from "react";
-import LemonSection from "../sections/home/LemonSection";
-import ActivitiesSection from "../sections/home/ActivitiesSection";
 import ServicesSection from "../sections/services/ServicesSection";
 
 const Services = () => {

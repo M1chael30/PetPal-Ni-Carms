@@ -6,43 +6,43 @@ const OrderSummary = () => {
   <div className="mx-auto mt-6 max-w-4xl flex-1 space-y-6 lg:mt-0 lg:w-full">
    <div className="space-y-4 rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800 sm:p-6">
     <p className="text-xl font-semibold text-gray-900 dark:text-white">
-     Order summary
+     Bill Summary
     </p>
 
     <div className="space-y-4">
      <div className="space-y-2">
       <dl className="flex items-center justify-between gap-4">
        <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
-        Original price
+        Grooming Fee
        </dt>
        <dd className="text-base font-medium text-gray-900 dark:text-white">
-        $7,592.00
+        ₱1,200
        </dd>
       </dl>
 
       <dl className="flex items-center justify-between gap-4">
        <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
-        Savings
-       </dt>
-       <dd className="text-base font-medium text-green-600">-$299.00</dd>
-      </dl>
-
-      <dl className="flex items-center justify-between gap-4">
-       <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
-        Store Pickup
+        Play Date Fee
        </dt>
        <dd className="text-base font-medium text-gray-900 dark:text-white">
-        $99
+        ₱500
        </dd>
       </dl>
 
       <dl className="flex items-center justify-between gap-4">
        <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
-        Tax
+        Service Fee
        </dt>
        <dd className="text-base font-medium text-gray-900 dark:text-white">
-        $799
+       ₱170
        </dd>
+      </dl>
+
+      <dl className="flex items-center justify-between gap-4">
+       <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
+        Discount
+       </dt>
+       <dd className="text-base font-medium text-green-600">-₱100</dd>
       </dl>
      </div>
 
@@ -51,16 +51,18 @@ const OrderSummary = () => {
        Total
       </dt>
       <dd className="text-base font-bold text-gray-900 dark:text-white">
-       $8,191.00
+      ₱1770
       </dd>
      </dl>
+
+
     </div>
 
     <Link
      to="#"
      className="flex w-full items-center justify-center rounded-lg bg-orange-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-orange-500 focus:outline-none focus:ring-4 focus:ring-orange-300 dark:bg-orange-500 dark:hover:bg-orange-500 dark:focus:ring-orange-800"
     >
-     Proceed to Checkout
+     Proceed to Payment
     </Link>
 
     <div className="flex items-center justify-center gap-2">

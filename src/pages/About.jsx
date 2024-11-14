@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Teams from "../sections/about/Teams";
 import Typography from "../sections/about/Typography";
 
